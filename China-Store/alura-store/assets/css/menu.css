@@ -1,0 +1,42 @@
+.menu__link{
+    transition: 0.3s ease color;
+    color: #fdfdfd;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    /* transition: 1s ease all; */
+
+}
+
+.menu__link:hover , .menu__link.ativo{
+    border-bottom: 1.5px solid #0073e6;
+    /* transition: 0.5s ease all; */
+}
+
+/* .menu::after{
+    content: '';
+    left: 0;
+    border-bottom: ;
+} */
+/* .mudar__cor___nome{
+    color: #fdfdfd;
+} */
+
+
+
+/* MÉTODO DIFERENTE */
+
+/* .mudar__cor___fundo{
+    transition: 0.5s all ease;
+    background:rgba(51, 51, 51,1) ;
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    padding:27px 2rem ;
+    width: 100%;
+    top: 0px;
+    margin-bottom:0.8rem ;
+    position: fixed;
+    width: 100%;     
+    color: #333;
+} */
